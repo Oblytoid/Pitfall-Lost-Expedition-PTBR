@@ -1,0 +1,26 @@
+# --- Arquivos do jogo: NUNCA subir (direitos da Activision) ---
+ISOs/
+extraido/
+build/
+*.iso
+*.arc
+*.ind
+*.bin
+quickdat_texto_bruto.txt
+
+# Pasta de teste do pacote (tem ISOs dentro). O .zip vai em "Releases", não no código.
+patch/
+
+# Programas e temporários
+*.exe
+ferramentas/xdelta3*/
+ferramentas/xdelta3*.zip
+__pycache__/
+ferramentas/diagnostico.txt
+teste_menu/
+ferramentas/teste_menu/
+
+# Textos do jogo (original em inglês + tradução).
+# Se o repositório for PÚBLICO, deixe a linha abaixo ativa.
+# Se for PRIVADO (só para backup), apague a linha para versionar a tradução também.
+script/
