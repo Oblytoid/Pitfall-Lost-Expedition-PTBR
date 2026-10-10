@@ -1,2 +1,14 @@
-# Auto detect text files and perform LF normalization
+# Normaliza finais de linha no repositório
 * text=auto
+
+# Arquivos .bat precisam de CRLF para o Windows executar direito
+*.bat text eol=crlf
+
+# Python e Markdown sempre com LF
+*.py text eol=lf
+*.md text eol=lf
+
+# Binários (nunca mexer)
+*.zip binary
+*.xdelta binary
+*.exe binary
