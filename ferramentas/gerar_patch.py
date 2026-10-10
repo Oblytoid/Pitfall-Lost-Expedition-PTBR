@@ -132,6 +132,9 @@ def montar_pacote(xd, saida, versao, leiame, h_o, h_t):
         bat = bat.replace(chave, valor)
     with open(os.path.join(pasta, 'ARRASTE A ISO AQUI.bat'), 'w', encoding='utf-8', newline='\r\n') as f:
         f.write(bat.replace('\r\n', '\n'))
+    if leiame and not os.path.isfile(leiame):
+        print(f'  AVISO: LEIAME não encontrado ({leiame}); o pacote vai sem LEIAME.txt')
+        leiame = ''
     if leiame:
         with open(os.path.join(pasta, 'LEIAME.txt'), 'w', encoding='utf-8-sig', newline='\r\n') as f:
             f.write(leiame_txt(leiame, h_o))
