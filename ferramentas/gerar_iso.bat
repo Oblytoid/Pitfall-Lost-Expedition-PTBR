@@ -8,7 +8,7 @@ cd /d "%~dp0"
 set "TEXTOS=%~1"
 if "%TEXTOS%"=="" set "TEXTOS=..\script"
 set "DATA=..\extraido\Pitfall - The Lost Expedition (PT-BR)\data"
-set "ISO=..\ISOs\Pitfall - The Lost Expedition (PT-BR).iso"
+set "ISO=..\ISOs\Pitfall - The Lost Expedition (USA).iso"
 set "BUILD=..\build"
 
 python --version >nul 2>&1

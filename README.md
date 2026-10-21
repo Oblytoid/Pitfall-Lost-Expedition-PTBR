@@ -24,7 +24,7 @@ Scripts em Python 3.8 ou mais novo (testado no 3.12), só com a biblioteca padr�
 Pitfall/
 ├─ ferramentas/   scripts (neste repositório)
 ├─ script/        textos traduzidos (.txt), fora do repositório público
-├─ ISOs/          Pitfall - The Lost Expedition (PT-BR).iso  ← cópia da sua ISO original
+├─ ISOs/          Pitfall - The Lost Expedition (USA).iso  ← cópia da sua ISO original
 ├─ extraido/      Pitfall - The Lost Expedition (PT-BR)/data/...  ← conteúdo da ISO
 ├─ build/         gerado: arquivos novos e a ISO de teste
 └─ patch/         gerado: .xdelta e o pacote .zip
@@ -32,7 +32,7 @@ Pitfall/
 As pastas `ISOs/`, `extraido/`, `build/` e `patch/` ficam fora do Git (ver `.gitignore`).
 
 ### Como gerar
-1. Copie a ISO original para `ISOs/` com o nome acima e extraia o conteúdo dela (por exemplo, com o 7-Zip) para `extraido/Pitfall - The Lost Expedition (PT-BR)/`.
+1. Copie a ISO original para `ISOs/` com o nome acima e extraia o conteúdo dela (por exemplo, com o 7-Zip) para `extraido/Pitfall - The Lost Expedition (PT-BR)/`. A ISO precisa ser a limpa (códigos no `LEIAME.txt` do pacote).
 2. `ferramentas/extrair.py` gera os textos editáveis.
 3. `ferramentas/gerar_iso.bat` insere os textos e monta `build/Pitfall_PTBR_teste.iso`.
 4. `ferramentas/gerar_patch.bat` cria o `.xdelta` e o pacote `.zip`. Precisa do [xdelta3](https://github.com/jmacd/xdelta-gpl/releases) na pasta `ferramentas`.

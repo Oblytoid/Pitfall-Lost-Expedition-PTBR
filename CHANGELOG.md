@@ -1,5 +1,9 @@
 # Histórico de versões
 
+## v0.9.1-beta — 20/10/2026
+### Corrigido
+- O patch agora é aplicado sobre a ISO limpa da versão americana (SHA-1 `d13c1b38…`). A v0.9-beta tinha sido gerada a partir de uma cópia em que o arquivo `SCRIPTS.ARC` havia sido alterado por terceiros, e por isso recusava a ISO original. A tradução em si não mudou.
+
 ## v0.9-beta — 10/10/2026
 Primeira versão pública.
 
