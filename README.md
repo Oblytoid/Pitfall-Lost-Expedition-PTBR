@@ -4,6 +4,8 @@ Tradução de fãs de **Pitfall: The Lost Expedition** (PlayStation 2, versão a
 
 ### ⬇️ [Baixar a versão mais recente (v0.9.1 beta)](https://github.com/Oblytoid/Pitfall-Lost-Expedition-PTBR/releases)
 
+<p align="center"><img src="imagens/00_dica.jpg" width="640" alt="Dica durante o jogo: Segure O para Andar de Mansinho!"></p>
+
 | | |
 |:---:|:---:|
 | <img src="imagens/01_menu.jpg" width="400" alt="Menu principal em português"> | <img src="imagens/02_pausa.jpg" width="400" alt="Menu de pausa em português"> |
