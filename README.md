@@ -2,19 +2,52 @@
 
 Tradução de fãs de **Pitfall: The Lost Expedition** (PlayStation 2, versão americana **SLUS-20408**) para o português do Brasil, por **Oblytoid**.
 
-**Status:** v0.9 beta. Todo o texto está traduzido e revisado. A segunda metade do jogo ainda não foi conferida tela a tela.
+### ⬇️ [Baixar a versão mais recente (v0.9.1 beta)](https://github.com/Oblytoid/Pitfall-Lost-Expedition-PTBR/releases)
 
-## Para jogar
-1. Baixe o `.zip` mais recente em [Releases](../../releases).
-2. Descompacte e arraste a ISO original do jogo para cima de `ARRASTE A ISO AQUI.bat`.
-3. A ISO traduzida aparece na mesma pasta da original. A original não é alterada.
+<!-- Prints do jogo traduzido: colocar aqui (menu, diário, loja, créditos) -->
 
-O `LEIAME.txt` do pacote tem os códigos (CRC32/MD5/SHA-1) da ISO compatível e outras formas de aplicar o patch (Delta Patcher, xdelta3 no Linux/macOS).
+## O que está traduzido
+- Menus, opções e telas de memory card
+- Diário do Harry, bestiário e Manual do Herói
+- Loja do Xamã, dicas e tutoriais
+- Nomes de fases e cargos dos créditos
+- Acentuação completa (á é í ó ú â ê ô ã õ ç à)
 
-Este repositório **não contém o jogo** nem arquivos extraídos dele. Você precisa da sua própria cópia original.
+As cutscenes continuam com o áudio original em inglês, porque o jogo não tem legendas nelas.
+
+**Status:** beta. Todo o texto está traduzido e revisado, e o jogo foi testado no PCSX2. A segunda metade ainda não foi conferida tela a tela, então avisos de erro são muito bem-vindos.
+
+## Como jogar
+1. Baixe o `.zip` da versão mais recente em **[Releases](https://github.com/Oblytoid/Pitfall-Lost-Expedition-PTBR/releases)** e descompacte numa pasta.
+2. Arraste a ISO original do jogo para cima de **`ARRASTE A ISO AQUI.bat`**.
+3. Espere o **"Pronto!"**. A ISO traduzida, `Pitfall - The Lost Expedition (PT-BR).iso`, aparece na mesma pasta da original, e a original não é alterada.
+4. Abra a ISO traduzida no PCSX2 ou use no PS2 pelo OPL.
+
+O `LEIAME.txt` do pacote também explica como aplicar com o Delta Patcher ou com o xdelta3 no Linux/macOS.
+
+### ISO compatível
+O patch funciona só com a ISO **limpa** da versão americana:
+
+| | |
+|---|---|
+| Código | SLUS-20408 (NTSC-U) |
+| Tamanho | 1.342.144.512 bytes |
+| CRC32 | `9CBE62BE` |
+| MD5 | `2bb11628acbf208751c6a3cb5f69e7e9` |
+| SHA-1 | `d13c1b38f7cda483248656e69a31c756dd82c082` |
+
+O nome do arquivo não importa. Este repositório **não contém o jogo** e não indica onde baixá-lo: faça a ISO a partir do seu próprio disco. Num PC com leitor de DVD, isso pode ser feito com o ImgBurn em "Create image file from disc".
+
+### Deu "ATENÇÃO: esta ISO não é a versão esperada"?
+A sua cópia é diferente da original americana. Pode ser de outra região (PAL/Europa), estar em outro formato (CSO, CHD, ZSO, BIN/CUE) ou ter sido modificada. Converta para `.iso` ou faça a cópia direto do disco e compare com os códigos acima.
+
+### Perguntas frequentes
+- **Funciona no PS2 de verdade?** Deve funcionar pelo OPL, mas ainda não foi testado em console real. Se testar, conta pra gente.
+- **Meus saves continuam valendo?** Sim, saves da versão original funcionam na traduzida.
+- **Usei a v0.9 beta e não funcionou.** Ela foi retirada porque recusava a ISO limpa. Use a v0.9.1 beta ou mais nova.
 
 ## Encontrou um problema?
-Abra uma [Issue](../../issues) com um print da tela e a parte do jogo em que estava.
+Abra uma [Issue](https://github.com/Oblytoid/Pitfall-Lost-Expedition-PTBR/issues) com um print da tela e a parte do jogo em que estava. O histórico de versões está no [CHANGELOG](CHANGELOG.md).
 
 ## Ferramentas (para quem quer estudar ou contribuir)
 Scripts em Python 3.8 ou mais novo (testado no 3.12), só com a biblioteca padrão. Não precisa instalar nada além do Python. Detalhes de cada script em [`ferramentas/LEIAME.md`](ferramentas/LEIAME.md).
