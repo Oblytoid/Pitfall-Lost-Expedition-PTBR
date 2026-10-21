@@ -4,7 +4,14 @@ Tradução de fãs de **Pitfall: The Lost Expedition** (PlayStation 2, versão a
 
 ### ⬇️ [Baixar a versão mais recente (v0.9.1 beta)](https://github.com/Oblytoid/Pitfall-Lost-Expedition-PTBR/releases)
 
-<!-- Prints do jogo traduzido: colocar aqui (menu, diário, loja, créditos) -->
+| | |
+|:---:|:---:|
+| <img src="imagens/01_menu.jpg" width="400" alt="Menu principal em português"> | <img src="imagens/02_pausa.jpg" width="400" alt="Menu de pausa em português"> |
+| Menu principal | Menu de pausa |
+| <img src="imagens/05_bestiario.jpg" width="400" alt="Bestiário: crocodilo"> | <img src="imagens/06_loja.jpg" width="400" alt="Loja do Xamã"> |
+| Bestiário | Loja do Xamã |
+| <img src="imagens/03_mapa.jpg" width="400" alt="Mapa: Coração da Selva"> | <img src="imagens/04_legenda.jpg" width="400" alt="Legenda do mapa e requisitos"> |
+| Mapa | Legenda e requisitos |
 
 ## O que está traduzido
 - Menus, opções e telas de memory card
